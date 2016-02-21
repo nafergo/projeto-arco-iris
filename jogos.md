@@ -76,9 +76,13 @@ https://github.com/ioncreature/html5-puzzle
 
 ## Memória
 https://github.com/silverio/memylon
+
 https://github.com/lmandel/memory
+
 https://github.com/Hao-Wu/HTML5-Card-Memory-Game
+
 https://github.com/cristianduro/MemoryGame
+
 https://github.com/Soldy/memory
 https://github.com/Lobwick/memory
 https://github.com/afucher/memory
