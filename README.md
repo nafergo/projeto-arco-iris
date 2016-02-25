@@ -1,6 +1,5 @@
 # projeto-arco-iris
 
 ##Equipa
-Nelson e Pedro,
-
+Nelson e Pedro
 
