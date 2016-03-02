@@ -1,5 +1,5 @@
 # projeto-arco-iris
 
 ##Equipa
-Nelson e Pedro
+aida, nelson, pedro e júlia
 

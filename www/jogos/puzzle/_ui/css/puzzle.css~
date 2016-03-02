@@ -17,7 +17,9 @@ header > h1 {
 }
 
 @media only screen and (min-width: 630px) {
-    body {    }
+    body {
+        background: transparent url('../img/bg-large.jpg') no-repeat center center fixed;
+    }
     
     header > h1 {
         background: transparent url('../img/header-large.png') no-repeat center center;
@@ -26,10 +28,12 @@ header > h1 {
 }
 
 @media only screen and (max-width: 629px) {
-    body {  }
+    body {
+        background: transparent url('../img/bg-small.jpg') no-repeat center center;
+    }
     
     header > h1 {
-        
+        background: transparent url('../img/header-small.png') no-repeat center center;
     }
 }
 
