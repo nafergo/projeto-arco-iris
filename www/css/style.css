@@ -12,3 +12,12 @@
 background-color: #fff;
 color: #333;
 }
+
+.index-jpg {max-height: 400px;}
+
+.alegria {background-color: yellow;}
+.tristeza {background-color: blue;}
+.ira {background-color: red;}
+.medo {background-color: purple;}
+
+.center-block {text-align: center;}
