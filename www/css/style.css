@@ -7,3 +7,8 @@
   background:
     url('../images/dog.png') bottom right 15% no-repeat #46B6AC;
 }
+
+.navbar, .navbar.navbar-default,.menu-topo {
+background-color: #fff;
+color: #333;
+}
