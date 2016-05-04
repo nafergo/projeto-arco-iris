@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Arco-Íris</title>  
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <link rel="shortcut icon" href="../../../images/favicon.png">
+
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Material Design fonts -->
+
+
+  <!-- Bootstrap 3.3.6 -->
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Material Design -->
+  <link href="../../../css/bootstrap-material-design.min.css" rel="stylesheet">
+  <link href="../../../css/ripples.min.css" rel="stylesheet">
+    
+  <!-- Dropdown.js css -->
+  <link href="../../../css/jquery.dropdown.css" rel="stylesheet">  
+
+  <!-- arco-iris style -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+  <!-- jQuery -->
+  <script src="../../../js/jquery-1.10.2.min.js"></script>
+     
+   <!-- FontAwesome -->
+	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
+
+<link rel="stylesheet" href="css/memory.css">
+<script type="text/javascript" src="js/memory.js"></script>
+
+</head>
+<body onload="setup();" class="memoria">
+<div class="navbar navbar-default menu-topo">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="../../../index.html"><img class="logomenu" src="../../../images/android-desktop.png"></a>
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse">
+ 
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="../1b.html" alt="Info p/ adultos" title="Info p/ adultos"><i class="fa fa-book fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="../1a.html" alt="Ficha técnica" title="Ficha técnica"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a></li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+
+<div id="menu"></div><br><br>
+<div id="status"></div>
+<div id="gameboard"></div>
+</body>
+</html>
