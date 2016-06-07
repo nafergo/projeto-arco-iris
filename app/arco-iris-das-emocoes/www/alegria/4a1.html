@@ -47,6 +47,10 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="../index.html"><img class="logomenu" src="../images/android-desktop.png"></a>
+      <a class="navbar-brand" href="../2.html"><img class="logomenu" src="../images/2html.png"></a>
+      <a class="navbar-brand" href="../3a.html"><img class="logomenu" src="../images/3ahtml.png"></a>  
+      <a class="navbar-brand" href="4a.html"><img class="logomenu" src="../images/4ahtml.png"></a>        
+           
     </div>
     <div class="navbar-collapse collapse navbar-warning-collapse">
  
@@ -67,13 +71,36 @@
 				</div>
 			<div class="col-sm-8">
 				<h1>O que é a alegria</h1>
-<h2>        	 A personagem diz:</h2>
 
-<h2>"Quando acontece alguma coisa que nós gostamos o nosso corpo fica com mais energia! E a nossa cara? Como fica quando estamos alegres? O principal sinal da alegria é o sorriso! Vamos ver como fica o nosso corpo e a nossa cara quando estamos alegres?"</h2>
+<h2>Quando acontece alguma coisa que nós gostamos o nosso corpo fica com mais energia! E a nossa cara? </h2>
+<h2>Como fica quando estamos alegres? O principal sinal da alegria é o sorriso! Vamos ver como fica o nosso corpo e a nossa cara quando estamos alegres?</h2>
+
+<audio id="myThirdAudio"
+ <source src="sounds/4a1html.mp3"
+         type='audio/mp3'>
+ Your user agent does not support the HTML5 Audio element.
+</audio>
+<button class="btn btn-default btn-fab" type="button" onclick="aud_play_pausethree()"><i class="fa fa-play" aria-hidden="true"></i> <i class="fa fa-pause" aria-hidden="true"></i><div class="ripple-container"></div></button>
+<script>
+function aud_play_pausethree() {
+  var myThirdAudio = document.getElementById("myThirdAudio");
+  if (myThirdAudio.paused) {
+    myThirdAudio.play();
+  } else {
+    myThirdAudio.pause();
+  }
+}
+</script>
 
 
+<br>
+			<div class="col-sm-12 center-block">
 
-						          <a href="4a.html" class="btn btn-raised btn-default">	<span>voltar à alegria</span> 		</a>
+    <a href="4a.html" class="btn btn-raised btn-default">	<span><img class="logomenu" src="../images/4ahtml.png"></span> 		</a>
+
+			</div>
+
+
 			</div>
 
 
