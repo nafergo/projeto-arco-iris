@@ -29,14 +29,16 @@ color: #333;
 
 .quatro-a {background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
 .quatro-a-um {background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
-.quatro-a-dois {background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: center bottom;}
-.quatro-a-tres {background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+.quatro-a-dois {background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left top;}
+.quatro-a-tres {background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
 .index {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: right top;}
-.dois {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: left bottom;}
-.um-b {background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.um-a {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.dois {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
+.um-b {background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right top;}
+.um-a {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right top;}
 .tres-a {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
 .tres-b {background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
 .tres-c-a {background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
 .tres-c-b {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.memoria {background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: left top;}
+.memoria {background-image: url("../images/planeta3_amarelo.png1"); background-repeat: no-repeat; background-position: left top;}
+
+.fundotransparente {background-color: rgba(238, 238, 238, 0.51); }
