@@ -31,13 +31,13 @@
 
   <!-- jQuery -->
   <script src="js/jquery-1.10.2.min.js"></script>
-
-  <!-- FontAwesome -->
+    
+   <!-- FontAwesome -->
 	<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
 
   </head>
 
-<body  class="index">
+<body class="um-a">
 <div class="navbar navbar-default menu-topo">
   <div class="container">
     <div class="navbar-header">
@@ -50,53 +50,29 @@
     </div>
     <div class="navbar-collapse collapse navbar-warning-collapse">
  
-      <ul class="nav navbar-nav">
-
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="1b.html" alt="Info p/ adultos" title="Info p/ adultos"><i class="fa fa-book fa-lg" aria-hidden="true"></i></a></li>
+        <li><a href="1a.html" alt="Ficha técnica" title="Ficha técnica"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a></li>
       </ul>
     </div>
   </div>
 </div>
 
-
 	<div class="container">
 		<div class="row">
-			<div class="col-sm-12 well well-lg ">
-
-					<a href="2.html" class="center-block btn btn-raised btn-lg btn-default ">
-					<img src="images/index.png" class="center-block index-jpg img-responsive" alt="">
-		                   		</a>
-
-			</div>
-
-		</div>
-
-		<div class="row">
-		
 			<div class="col-sm-12">
-			
-
-							<div class="col-sm-6 center-block">
-
-			          <a href="1b.html" alt="Guião de Exploração" title="Guião de Exploração" class="center-block btn btn-raised btn-lg btn-default fundotransparente">
-						 <i class="fa fa-book fa-lg" aria-hidden="true"></i> Guião de Exploração
-             		</a>
-
-							</div>
-
-
-							<div class="col-sm-6 center-block">
-							
-							<a href="1a.html" alt="Ficha técnica" title="Ficha técnica" class="center-block btn btn-raised btn-lg btn-default fundotransparente">	
-							<i class="fa fa-info-circle fa-lg" aria-hidden="true"></i> Ficha Técnica
-							</a>
-
-							</div>
+				<h2>Ficha Técnica</h2>
+			</div>
+		</div>	
+		<div class="row">
+			<div class="col-sm-12">
+			Loren Ipsum...
 
 			</div>
 
+
 		
 		</div>
-
 	</div>
       		
       		

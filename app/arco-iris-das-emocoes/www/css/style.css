@@ -1,3 +1,5 @@
+body {background-color: #fff;}
+    
 .jogo-card-square.mdl-card {
   width: 320px;
   height: 320px;
@@ -11,8 +13,8 @@
 .navbar, .navbar.navbar-default,.menu-topo {
 background-color: #fff;
 color: #333;
+min-height: 120px;
 }
-
 
 
 .alegria {background-color: yellow;}
@@ -24,21 +26,22 @@ color: #333;
 
 .logomenu {height: 200% ; z-index: 9000;}
 
-.navbar {min-height: 80px;}
+.navbar {min-height: 100px;}
+.iconemenu {height: 90px;}
 
 
-.quatro-a {background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
-.quatro-a-um {background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
-.quatro-a-dois {background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left top;}
-.quatro-a-tres {background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
-.index {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: right top;}
-.dois {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
-.um-b {background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right top;}
-.um-a {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right top;}
-.tres-a {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
-.tres-b {background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.tres-c-a {background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.tres-c-b {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.memoria {background-image: url("../images/planeta3_amarelo.png1"); background-repeat: no-repeat; background-position: left top;}
+.quatro-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+.quatro-a-um {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
+.quatro-a-dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
+.quatro-a-tres {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+.index {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right center;}
+.dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center center;}
+.um-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right center;}
+.uma {background-attachment:fixed;background-position:static;  background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.tres-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
+.tres-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.tres-c-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.tres-c-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.memoria {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_amarelo.png1"); background-repeat: no-repeat; background-position: left top;}
 
 .btn.btn-raised.fundotransparente, .btn.btn-raised.btn-default.fundotransparente, .fundotransparente {background-color: rgba(238, 238, 238, 0.51); }

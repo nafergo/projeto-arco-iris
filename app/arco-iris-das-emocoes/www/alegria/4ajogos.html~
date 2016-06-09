@@ -37,7 +37,7 @@
 
   </head>
 
-<body  class="quatro-a-tres">
+<body class="quatro-a">
 <div class="navbar navbar-default menu-topo">
   <div class="container">
     <div class="navbar-header">
@@ -47,7 +47,7 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="../index.html"><img class="logomenu" src="../images/android-desktop.png"></a>
- 
+
     </div>
     <div class="navbar-collapse collapse navbar-warning-collapse">
  
@@ -61,37 +61,114 @@
 </div>
 
 
+
+
+
 	<div class="container">
+	
+		<div class="row">
+		
+					<div class="col-sm-4">
+					<img src="../images/menino_alegria.png" class="center-block index-jpg img-responsive" alt="">
+				</div>
+						
+		
+			<div class="col-sm-8">
+				<h1>Alegria</h1>
 
 		<div class="row">
-					<div class="col-sm-4">
-					<img src="corpos_alegria.png" class="center-block index-jpg img-responsive" alt="">
+		
+			<div class="col-sm-4">
+				<div class="well">
+		          <a href="4a1.html" class="btn btn-raised btn-default">
+  		          	<img src="alegria_menino_pensar.png" class="center-block img-responsive" alt="">
+            		<span>O que é a alegria?</span>
+          		</a>
 				</div>
-			<div class="col-sm-8">
-				<h1>Corpos da alegria</h1>
-<h2>        	 A personagem diz:</h2>
-
-<h2>"Quando acontece alguma coisa que nós gostamos o nosso corpo fica com mais energia! E a nossa cara? Como fica quando estamos alegres? O principal sinal da alegria é o sorriso! Vamos ver como fica o nosso corpo e a nossa cara quando estamos alegres?"</h2>
-
-
-
-
-
-<br>
-			<div class="col-sm-12 center-block">
-
-    <a href="4a.html" class="btn btn-raised btn-default">	<span><img class="logomenu" src="../images/4ahtml.png"></span> 		</a>
-
 			</div>
+
+			<div class="col-sm-4">
+				<div class="jogo-well well">
+		          <a href="4a2.html" class="btn btn-raised btn-default">
+  		          	<img src="alegria_menino_caras.png" class="center-block img-responsive" alt="">
+            		<span>Caras da alegria</span>
+          		</a>
+				</div>
 			</div>
 
 
+			<div class="col-sm-4">
+				<div class="jogo-well well">
+		          <a href="4a3.html" class="btn btn-raised btn-default">
+  		          	<img src="alegria_menino_corpos.png" class="center-block img-responsive" alt="">
+            		<span>Corpos da alegria</span>
+          		</a>
+				</div>
+			</div>
 
+		</div>
+
+
+		<div class="row">
+			<div class="col-sm-4">
+				<div class="jogo-well well">
+		          <a href="jogos/memoria/index.html" class="btn btn-raised">
+		          	<img src="memoria.png" class="center-block img-responsive" alt="">
+            		<span>Memória</span>
+          		</a>
+				</div>
+			</div>
+
+			<div class="col-sm-4">
+				<div class="jogo-well well">
+		          <a href="jogos/identificacao/index.html" class="btn btn-raised">
+		          <img src="identificacao.png" class="center-block img-responsive" alt="">
+            		<span>Identificação</span>
+          		</a>
+				</div>
+			</div>		
+
+			<div class="col-sm-4">
+				<div class="jogo-well well">
+		          <a href="jogos/puzzle/index.html" class="btn btn-raised">
+		          	<img src="puzzle.png" class="center-block img-responsive" alt="">
+            		<span>Puzzle</span>
+          		</a>
+				</div>
+			</div>	
+
+			<div class="col-sm-4 col-sm-offset-2">
+				<div class="jogo-well well">
+		          <a href="jogos/recria/index.html" class="btn btn-raised">
+		          <img src="recria.png" class="center-block img-responsive" alt="">		          
+            		<span>Recria o rosto</span>
+          		</a>
+				</div>
+			</div>	
+
+			<div class="col-sm-4">
+				<div class="jogo-well well">
+		          <a href="jogos/ordenar/index.html" class="btn btn-raised">
+		          <img src="ordenar.png" class="center-block img-responsive" alt="">		          
+            		<span>Ordenar as caras</span>
+          		</a>
+				</div>
+			</div>			
 		
 		</div>
+
+
+
+
+			</div>	
+		
+		</div>	
+			
+
+
+
+
 	</div>
-	
-	
       		
       		
         	
