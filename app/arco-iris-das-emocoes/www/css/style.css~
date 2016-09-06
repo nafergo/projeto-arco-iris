@@ -30,18 +30,18 @@ min-height: 120px;
 .iconemenu {height: 90px;}
 
 
-.quatro-a {background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
-.quatro-a-um {background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
-.quatro-a-dois {background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
-.quatro-a-tres {background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
-.index {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right center;}
-.dois {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center center;}
+.quatro-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+.quatro-a-um {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
+.quatro-a-dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;}
+.quatro-a-tres {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+index {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right center;}
+.dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center center;}
 .um-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right center;}
 .uma {background-attachment:fixed;background-position:static;  background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.tres-a {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
-.tres-b {background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.tres-c-a {background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.tres-c-b {background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
-.memoria {background-image: url("../images/planeta3_amarelo.png1"); background-repeat: no-repeat; background-position: left top;}
+.tres-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: center bottom;}
+.tres-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.tres-c-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.tres-c-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.memoria {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_amarelo.png1"); background-repeat: no-repeat; background-position: left top;}
 
 .btn.btn-raised.fundotransparente, .btn.btn-raised.btn-default.fundotransparente, .fundotransparente {background-color: rgba(238, 238, 238, 0.51); }

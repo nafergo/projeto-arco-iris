@@ -1,3 +1,4 @@
+<!doctype html>
 <html lang="en">
   <head>
 
@@ -9,72 +10,154 @@
     <link rel="shortcut icon" href="../../../images/favicon.png">
 
   <!-- Mobile support -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
   <!-- Material Design fonts -->
   <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
-  <!-- Bootstrap 3.3.6 -->
+  <!-- Bootstrap 3.3.6  -->
   <link href="../../../css/bootstrap.min.css" rel="stylesheet">
   
   <!-- Bootstrap Material Design -->
   <link href="../../../css/bootstrap-material-design.min.css" rel="stylesheet">
   <link href="../../../css/ripples.min.css" rel="stylesheet">
     
-  <!-- Dropdown.js css -->
+  <!-- Dropdown.js css --> 
   <link href="../../../css/jquery.dropdown.css" rel="stylesheet">  
 
   <!-- arco-iris style -->
     <link rel="stylesheet" href="../../../css/style.css">
 
-  <!-- jQuery -->
+  <!-- jQuery  -->
   <script src="../../../js/jquery-1.10.2.min.js"></script>
      
    <!-- FontAwesome -->
 	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
 
 
+        <script type="text/javascript" src="Script/jigsawScript.js"></script>
+    <script type="text/javascript">
 
-</head>
+        var game = null;
+        var imageID = "img1";
+        var totalRows = 3;
+        var totalColumns = 3;
 
 
-<body id="body" style="background-color: #EEE;">
+        function InitGame() {
+            LoadNewImage(imageID);
+        }
 
-      <div class="navbar navbar-default menu-topo">
-  <div class="container">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="../../../index.html"><img class="logomenu" src="../../../images/android-desktop.png"></a>
-      
-      <a class="navbar-brand" href="../../../index.html"><img class="logomenu" src="../../../images/android-desktop.png"></a>
-      <a class="navbar-brand" href="../../../2.html"><img class="logomenu" src="../../../images/2html.png"></a>
-      <a class="navbar-brand" href="../../../3a.html"><img class="logomenu" src="../../../images/3ahtml.png"></a>  
-      <a class="navbar-brand" href="../../4a.html"><img class="logomenu" src="../../../images/4ahtml.png"></a>         
-      
-    </div>
-    <div class="navbar-collapse collapse navbar-warning-collapse">
- 
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="../1b.html" alt="Info p/ adultos" title="Info p/ adultos"><i class="fa fa-book fa-lg" aria-hidden="true"></i></a></li>
-        <li><a href="../1a.html" alt="Ficha técnica" title="Ficha técnica"><i class="fa fa-info-circle fa-lg" aria-hidden="true"></i></a></li>
-      </ul>
-    </div>
-  </div>
-</div>
+        function LoadNewImage(imgID) {
+            imageID = imgID;
+            
+            SetRowsColumn();
+            
+            LoadGame();
+        }
+        
+        function LoadGame() {
+            var canvasID = "canJigsaw";
 
-<iframe frameborder="0" style="border: 0px inset;" src="jogo.html" width="100%" height="90%">Your browser doesn't support iframes</iframe>
+            game = new jigsaw(canvasID, imageID, totalRows, totalColumns);
 
+            game.initDrawing();
+
+        }
+
+        function ShowPreview() {
+            if (game) {
+
+                game.showPreview();
+
+            }
+        }
+
+        function SetRowsColumn() {
+            var r1 = document.getElementById("rd1");
+            var r2 = document.getElementById("rd2");
+            var r3 = document.getElementById("rd3");
+
+            if (r1.checked) {
+                totalRows = 2;
+                totalColumns = 2;
+
+            }
+            else if (r2.checked) {
+                totalRows = 3;
+                totalColumns = 3;
+
+            }
+            else if (r3.checked) {
+                totalRows = 4;
+                totalColumns = 4;
+
+            }
+
+
+        }
+
+    </script>
+    
+  </head>
+<body onload="InitGame();">
+
+
+         <div class="right">
+          <button style="float: right; border-style: none; background: none;" type="button" onclick="window.open('', '_self', ''); window.close();"><i class=" fa-5x fa fa-times" aria-hidden="true"></i></button>                
+
+      </div>
 
     
-  
-        
+	   <table cellpadding="100" cellspacing="100">
+        <tr>	
+				<td >	<br>				
+	                                <span>
+                                    <input id="rd1" type="radio" value="Easy" name="r1" onclick="InitGame();" />
+                                    Fácil
+                                    <input id="rd2" type="radio" value="Medium" name="r1" onclick="InitGame();" checked />
+                                    Médio
+                                    <input id="rd3" type="radio" value="Hard" name="r1" onclick="InitGame();" />
+                                    Difícil
+                                    </span>
+				</td>
 
 
-            
+				<td>
+					                
+            </td>
+        </tr>
+    </table>
+
+
+    <table>
+        <tr>
+            <td>
+                <div>
+                    <table cellpadding="0" cellspacing="0" width="100%">
+                        <tr>
+                            <td>
+                            </td>
+                            <td width="150px">
+
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+                <div  class="col-sm-12">
+                    <canvas id="canJigsaw" width="850" height="575" style="border: black solid 2px;"></canvas>
+                </div>
+            </td>
+            <td width="20px">
+                &nbsp;
+            </td>
+        </tr>
+    </table>
+
+
+		                        <img id="img1" width="1" onclick="LoadNewImage(this.id);" src="Images/BugsLife.jpg"></img>
+
+
 </body>
-</html>            
+</html>

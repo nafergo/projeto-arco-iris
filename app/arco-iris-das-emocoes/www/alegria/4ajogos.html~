@@ -67,90 +67,53 @@
 	<div class="container">
 	
 		<div class="row">
-		
-					<div class="col-sm-4">
-					<img src="../images/menino_alegria.png" class="center-block index-jpg img-responsive" alt="">
-				</div>
 						
 		
 			<div class="col-sm-8">
-				<h1>Alegria</h1>
-
-		<div class="row">
-		
-			<div class="col-sm-4">
-				<div class="well">
-		          <a href="4a1.html" class="btn btn-raised btn-default">
-  		          	<img src="alegria_menino_pensar.png" class="center-block img-responsive" alt="">
-            		<span>O que é a alegria?</span>
-          		</a>
-				</div>
-			</div>
-
-			<div class="col-sm-4">
-				<div class="jogo-well well">
-		          <a href="4a2.html" class="btn btn-raised btn-default">
-  		          	<img src="alegria_menino_caras.png" class="center-block img-responsive" alt="">
-            		<span>Caras da alegria</span>
-          		</a>
-				</div>
-			</div>
+				<h1>Jogos da Alegria</h1>
 
 
-			<div class="col-sm-4">
-				<div class="jogo-well well">
-		          <a href="4a3.html" class="btn btn-raised btn-default">
-  		          	<img src="alegria_menino_corpos.png" class="center-block img-responsive" alt="">
-            		<span>Corpos da alegria</span>
-          		</a>
-				</div>
-			</div>
-
-		</div>
 
 
 		<div class="row">
 			<div class="col-sm-4">
-				<div class="jogo-well well">
+			<div class="well well-sm">
 		          <a href="jogos/memoria/index.html" class="btn btn-raised">
 		          	<img src="memoria.png" class="center-block img-responsive" alt="">
             		<span>Memória</span>
           		</a>
 				</div>
-			</div>
-
+				</div>
 			<div class="col-sm-4">
-				<div class="jogo-well well">
+			<div class="well well-sm">
 		          <a href="jogos/identificacao/index.html" class="btn btn-raised">
 		          <img src="identificacao.png" class="center-block img-responsive" alt="">
             		<span>Identificação</span>
           		</a>
 				</div>
-			</div>		
-
+				</div>
 			<div class="col-sm-4">
-				<div class="jogo-well well">
+			<div class="well well-sm">
 		          <a href="jogos/puzzle/index.html" class="btn btn-raised">
 		          	<img src="puzzle.png" class="center-block img-responsive" alt="">
             		<span>Puzzle</span>
           		</a>
-				</div>
 			</div>	
-
+				</div>
 			<div class="col-sm-4 col-sm-offset-2">
-				<div class="jogo-well well">
+				<div class="well well-sm">
 		          <a href="jogos/recria/index.html" class="btn btn-raised">
 		          <img src="recria.png" class="center-block img-responsive" alt="">		          
-            		<span>Recria o rosto</span>
+            		<span>Recria</span>
           		</a>
 				</div>
 			</div>	
 
 			<div class="col-sm-4">
-				<div class="jogo-well well">
+				<div class="well well-sm">
 		          <a href="jogos/ordenar/index.html" class="btn btn-raised">
 		          <img src="ordenar.png" class="center-block img-responsive" alt="">		          
-            		<span>Ordenar as caras</span>
+            		<span>Ordenar</span>
           		</a>
 				</div>
 			</div>			

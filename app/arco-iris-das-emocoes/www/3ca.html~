@@ -47,7 +47,6 @@
         <span class="icon-bar"></span>
       </button>
       <a class="navbar-brand" href="index.html"><img class="logomenu" src="images/android-desktop.png"></a>
-    
     </div>
     <div class="navbar-collapse collapse navbar-warning-collapse">
  
@@ -111,7 +110,7 @@ function aud_play_pausetwo() {
 <br>
 			<div class="col-sm-12 center-block">
 
-    <a href="3a.html" class="btn btn-raised btn-default">	<span><img class="logomenu" src="images/3ahtml.png"></span> 		</a>
+    <a href="3a.html" class="btn btn-raised btn-default">	<img class="logomenu" src="images/3ahtml.png"> 		</a>
 
 			</div>
 			

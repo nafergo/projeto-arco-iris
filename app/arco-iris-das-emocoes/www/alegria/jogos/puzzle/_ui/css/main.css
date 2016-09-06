@@ -1,9 +1,0 @@
-/* TODO: render with Stylus.js for dynamic combining, 
-    minification, nested styles, and cross browser 
-    css3 support with Nib */
-@import 'resets.css';
-@import 'piece.css';
-@import 'board.css';
-@import 'puzzle.css';
-
-

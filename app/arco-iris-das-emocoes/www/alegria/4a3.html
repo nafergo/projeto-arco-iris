@@ -69,12 +69,25 @@
 				</div>
 			<div class="col-sm-8">
 				<h1>Corpos da alegria</h1>
-<h2>        	 A personagem diz:</h2>
-
-<h2>"Quando acontece alguma coisa que nós gostamos o nosso corpo fica com mais energia! E a nossa cara? Como fica quando estamos alegres? O principal sinal da alegria é o sorriso! Vamos ver como fica o nosso corpo e a nossa cara quando estamos alegres?"</h2>
+				<h2>Quando estamos alegres o nosso corpo fica com muita energia e só nos apetece saltar, correr, brincar...</h2>
 
 
-
+<audio id="myThirdAudio"
+ <source src="sounds/4a3html.mp3"
+         type='audio/mp3'>
+ Your user agent does not support the HTML5 Audio element.
+</audio>
+<button class="btn btn-default btn-fab" type="button" onclick="aud_play_pausethree()"><i class="fa fa-play" aria-hidden="true"></i> <i class="fa fa-pause" aria-hidden="true"></i><div class="ripple-container"></div></button>
+<script>
+function aud_play_pausethree() {
+  var myThirdAudio = document.getElementById("myThirdAudio");
+  if (myThirdAudio.paused) {
+    myThirdAudio.play();
+  } else {
+    myThirdAudio.pause();
+  }
+}
+</script>
 
 
 <br>
