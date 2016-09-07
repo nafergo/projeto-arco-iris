@@ -175,4 +175,27 @@ https://github.com/portwatcher/CSS3-Memory-Matching-Game
 
 https://github.com/gijsbertpeijs/HTML-Flip-Flop
 
+## Drag and drop
+https://github.com/nairuzabulhul/Droppable-Pictures
+
+https://github.com/blueInka/FeadPikachu
+
+https://github.com/angelalin2004/10-boxes
+
+http://konsole.studio/dad/
+
+https://github.com/h-z/simple-drag-and-drop
+
+https://github.com/craigcosmo/drag-drop
+
+https://github.com/MihaiAlexandruVlad/-Drag-and-Drop-in-js
+
+https://github.com/timothy/DragAndDrop
+
+https://github.com/tomekdw/simple-drag-and-drop
+
+
+
+
+
 ###soluções possíveis (easy install, no server, dependencies, license)
