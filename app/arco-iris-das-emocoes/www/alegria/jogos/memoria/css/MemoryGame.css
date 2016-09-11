@@ -47,7 +47,7 @@ body {
 .memory--menu-bar {
   width:100%;
   background-color: rgba(34, 34, 34, 0);
-  height:10%;
+  height:0%;
   display:table;
 }
 
@@ -91,6 +91,8 @@ body {
   text-align: center;
   color:#ccc;
   padding:8px 0;
+    z-index: 2;
+    margin-top: 200px;
 }
 #memory--end-game-modal h2,
 #memory--end-game-modal h3 {

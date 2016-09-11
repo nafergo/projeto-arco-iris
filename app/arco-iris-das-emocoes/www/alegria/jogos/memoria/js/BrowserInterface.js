@@ -66,9 +66,9 @@
 
       document.getElementById('memory--end-game-message').textContent = message;
       document.getElementById('memory--end-game-score').textContent =
-          'Score: ' + score + ' / 100';
+          'Pontos: ' + score + ' / 100';
 
-      document.getElementById("memory--end-game-modal").classList.toggle('show');
+      document.getElementById("memory--end-game-modal").classList.toggle('hide');
     }
 
   };
@@ -77,16 +77,16 @@
     var message = "";
 
     if (score == 100) {
-      message = "Amazing job!"
+      message = "Espetáculo!"
     }
     else if (score >= 70 ) {
-      message = "Great job!"
+      message = "Boa!"
     }
     else if (score >= 50) {
-      message = "Great job!"
+      message = "Parabéns!"
     }
     else {
-      message = "You can do better.";
+      message = "Consegues fazer melhor.";
     }
 
     return message;

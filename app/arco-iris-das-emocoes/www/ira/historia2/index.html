@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Uma viagem pelas emoções</title>  
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <link rel="shortcut icon" href="../../images/favicon.png">
+
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+  
+  <!-- Bootstrap Material Design -->
+  <link href="../../css/bootstrap-material-design.min.css" rel="stylesheet">
+  <link href="../../css/ripples.min.css" rel="stylesheet">
+    
+  <!-- Dropdown.js css -->
+  <link href="../../css/jquery.dropdown.css" rel="stylesheet">  
+
+  <!-- arco-iris style -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+  <!-- jQuery -->
+  <script src="../../js/jquery-1.10.2.min.js"></script>
+     
+   <!-- FontAwesome -->
+	<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+    <script src="js/draggabilly.pkgd.min.js"></script>
+
+<style type="text/css">
+.left {float: left;}
+.left_two {float: left; margin-right: 50px; }
+.left_button {float: left;}
+.fundo {width: 30%;}
+.img-responsive {min-height: 50px; min-width: 50px;}
+.draggable.is-pointer-down {
+  background: #09F;
+}
+.draggable.is-dragging { opacity: 0.7; }
+.draggable:hover {background: #09F; opacity: 0.7;}
+
+</style>
+
+  </head>
+
+<body class="quatro-ahistorias1">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse">
+ 
+      <ul class="nav navbar-nav ">
+        <li><a href="../../index.html"><img class="iconemenu" src="../../images/android-desktop.png"></a></li>
+        <li><a href="../../2.html" class=""><img class="iconemenu" src="../../images/2html.png"></a></li>
+        <li><a href="../../3a.html" class=""><img class="iconemenu" src="../../images/3ahtml.png"></a></li>
+        <li><a href="../4a.html" class=""><img class="iconemenu" src="../../images/4ahtml.png"></a></li> 
+        <li><a href="../4ahistorias.html" class=""><img class="iconemenu" src="../../images/4ahistoriashtml.png"></a></li>                       
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+             				<h2>História 2</h2>      
+      </ul>      
+    
+    </div>
+  </div>
+
+
+<div class="container-fluid">
+
+
+<div class="row">
+<div class="col-sm-8"> 
+
+
+<img src="images/h2_1.jpg" class="fundo left draggable" alt="" />	
+
+<img src="images/h2_2.jpg" class="fundo left_two draggable"  alt="" />
+
+<img src="images/h2_3.jpg" class="fundo left draggable" alt="" />
+
+</div>
+
+<div class="col-sm-4">
+
+<audio id="mySecondAudio"
+ <source src="historia.mp3"
+         type='audio/mp3'>
+ Your user agent does not support the HTML5 Audio element.
+</audio>
+<button class="btn btn-default btn-fab" type="button" onclick="aud_play_pausetwo()"><i class="fa fa-play" aria-hidden="true"></i> <i class="fa fa-pause" aria-hidden="true"></i><div class="ripple-container"></div></button>
+<script>
+function aud_play_pausetwo() {
+  var mySecondAudio = document.getElementById("mySecondAudio");
+  if (mySecondAudio.paused) {
+    mySecondAudio.play();
+  } else {
+    mySecondAudio.pause();
+  }
+}
+</script>
+<h4>O João esqueceu-se do lanche para comer na escola. A Maria come a sandes dela ao lado do João e não lhe oferece um bocadinho.</h4>
+<h4>Como é que o João se sente quando brinca com os amigos?</h4>
+
+
+
+					<div class="col-sm-5 center-block">
+<!-- Button alegria trigger modal -->
+
+<button type="button" class="center-block btn btn-raised  btn-default" data-toggle="modal" data-target="#alegriamyModal">
+			          <img src="images/avatar_menino_alegria.png" class="center-block img-responsive" alt="">
+</button>
+					</div>
+
+
+					<div class="col-sm-5 center-block col-sm-offset-1">
+<!-- Button tristeza trigger modal -->
+
+<button type="button" class="center-block btn btn-raised btn-default" data-toggle="modal" data-target="#tristezamyModal">
+			          <img src="images/avatar_menino_tristeza.png" class="center-block img-responsive" alt="">
+</button>
+					</div>
+					
+					
+	
+<!-- Modal alegria -->
+<div class="modal fade" id="alegriamyModal" tabindex="-1" role="dialog" aria-labelledby="alegriamyModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="alegriamyModalLabel">ALEGRE</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Este menino está alegre.</h3>
+        <h2>Parabéns! Descobriste <strong>quem está alegre</strong>.</h2> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div> 
+
+
+
+
+
+<!-- Modal tristeza -->
+<div class="modal fade" id="tristezamyModal" tabindex="-1" role="dialog" aria-labelledby="tristezamyModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="tristezamyModalLabel">TRISTE</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Este menino está triste. Triste não é alegre.</h3>
+        <h2>Observa com atenção e descobre <strong>Quem está alegre?</strong></h2> 
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div> 
+				
+					
+
+</div>
+
+
+</div>
+</div>
+
+
+
+
+
+		<div class="fundo">		
+		</div>					
+
+
+
+
+
+
+ 
+ <!-- Twitter Bootstrap 3.3.6 -->
+<script src="../../js/bootstrap.min.js"></script>
+
+<!-- Material Design for Bootstrap -->
+<script src="../../js/material.js"></script>
+<script src="../../js/ripples.min.js"></script>
+
+<script>
+  $.material.init();
+</script>
+
+<!-- Dropdown.js -->
+<script src="../../js/jquery.dropdown.js"></script>
+<script>
+  $("#dropdown-menu select").dropdown();
+</script>
+
+
+
+
+<script>
+$(document).ready( function() {
+  var $draggable = $('.draggable').draggabilly();
+});
+
+</script>
+    
+    
+</body>
+</html>

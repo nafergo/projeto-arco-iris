@@ -1,0 +1,53 @@
+body {background-color: #fff;}
+    
+.jogo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.jogo-card-square > .mdl-card__title {
+  color: #fff;
+  background:
+    url('../images/dog.png') bottom right 15% no-repeat #46B6AC;
+}
+
+.navbar, .navbar.navbar-default,.menu-topo {
+background-color: #fff;
+color: #333;
+min-height: 120px;
+}
+
+
+.alegria {background-color: yellow;}
+.tristeza {background-color: blue;}
+.ira {background-color: red;}
+.medo {background-color: purple;}
+
+.center-block {text-align: center;}
+
+.logomenu {height: 200% ; z-index: 9000;}
+
+.navbar {min-height: 100px;}
+.iconemenu {height: 90px;}
+
+
+.index {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom; background-size: 350px, 130px, auto;}
+.uma {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: right bottom; background-size: 350px, 130px, auto;}
+.um-b {background-image: url("../images/guiao.png"); background-repeat: no-repeat; background-position: right bottom; }
+.dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center center;}
+.tres-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: left bottom; background-size: 250px, 130px, auto;}
+.tres-c-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom; background-size: 150px, 130px, auto;}
+.quatro-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+.quatro-a-um {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;background-size: 180px, 130px, auto;}
+.quatro-a-dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 250px, 130px, auto;}
+.quatro-a-tres {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
+
+.quatro-ahistorias {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 200px, 130px, auto;}
+.quatro-ajogos {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 200px, 130px, auto;}
+
+
+.tres-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+
+.tres-c-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
+.memoria {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_amarelo.png1"); background-repeat: no-repeat; background-position: left top;}
+
+.btn.btn-raised.fundotransparente, .btn.btn-raised.btn-default.fundotransparente, .fundotransparente {background-color: rgba(238, 238, 238, 0.51); }

@@ -10,19 +10,19 @@
 var imageDir = 'images/';
 var userChangeThis = [
     {
-        text: 'Irado',
+        text: 'Ira',
         img: imageDir + 'irado.jpg'
     },
     {
-        text: 'Triste',
+        text: 'Tristeza',
         img: imageDir + 'triste.jpg'
     },
     {
-        text: 'Neutro',
-        img: imageDir + 'neutro.jpg'
+        text: 'Medo',
+        img: imageDir + 'medo.jpg'
     },
     {
-        text: 'Alegre',
+        text: 'Alegria',
         img: imageDir + 'alegre.jpg'
     }];
 ///////////////////////////////////////////////////////////////////////////////

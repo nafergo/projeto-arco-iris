@@ -1,0 +1,37 @@
+h1, div {
+	font-family: 'Roboto';
+}
+
+div {
+	text-align: center;
+}
+
+
+
+button {
+
+}
+
+button:active {
+
+}
+
+/* unvisited link */
+a:link {
+	color: #3982A5;
+}
+
+/* visited link */
+a:visited {
+	color: #3982A5;
+}
+
+/* mouse over link */
+a:hover {
+	color: #A1D0C7;
+}
+
+/* selected link */
+a:active {
+	color: white;
+}
