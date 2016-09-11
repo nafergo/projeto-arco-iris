@@ -1,0 +1,82 @@
+/*Note CSS Looks Ugly*/
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+.row {
+    box-sizing: border-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-flex: 0 1 auto;
+    -ms-flex: 0 1 auto;
+    -webkit-box-flex: 0;
+    flex: 0 1 auto;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -1rem;
+    margin-left: -1rem;
+}
+
+.new-box {
+    background-color: #EEEEEF;
+    color: black;
+    padding: 5px 15px;
+    /*float: left;*/
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    width: 131pt;
+    height: 131pt;
+/*    -webkit-box-shadow: inset 1px 1px 16px -1px rgba(0, 0, 0, 0.65);*/
+/*    -moz-box-shadow: inset 1px 1px 16px -1px rgba(0, 0, 0, 0.65);*/
+/*    box-shadow: inset 1px 1px 16px -1px rgba(0, 0, 0, 0.65);*/
+        margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.square {
+    background: #faf6e2;
+    width: 131pt;
+    height: 131pt;
+    border: dashed;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+[id*="drag"] {
+    float: left;
+    padding: 15px;
+    height: 131pt;
+    width: 131pt;
+}
+
+[id*="box"] {
+    margin-bottom: 10px;
+}
+
+#items {
+    float: left;
+}
+
+#Qbox {
+    float: left;
+}
+
+.img {
+    height: 100%;
+    width: auto;
+}
