@@ -35,8 +35,17 @@
    <!-- FontAwesome -->
 	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
 
-    <link rel="stylesheet" type="text/css" href="DnD.css"/>
-    <script type="text/javascript" src="DnD.js"></script>
+<style>
+#alegria, #tristeza, #ira, #medo {height:auto;}
+#droppablealegria, #droppableira {height:200px; text-align: center;  }
+#droppabletristeza, #droppablemedo {height:200px; text-align: center;}
+.ui-state-highlight {font-size: 2em; background-color: rgba(0, 255, 0, 0.2);}
+.label {font-size: 1.5em; text-align: center;font-weight: bold; background-color: rgba(255, 0, 0, 0.0); color: gray;}
+img {z-index: 1000;}
+.conteudo {height:100%;border: 1px solid lightgray; border-radius: 5px;}
+</style>
+
+
     
   </head>
 
@@ -68,17 +77,34 @@
   </div>
   
   
+<div class="container-fluid">
 
-  <div class="container">
 
-          
 <div class="row">    .    
-<!-- this where the DnD items will be dropped -->
-<div class="row" id="Qbox"></div>
+<div class="col-sm-12"> 
+<img id="alegria" src="images/alegre.jpg" class="col-sm-2 img-circle" alt="" />
+<img id="tristeza" src="images/triste.jpg" class="col-sm-2 img-circle" alt="" />
+<img id="ira" src="images/irado.jpg" class="col-sm-2 img-circle" alt="" />
+<img id="medo" src="images/medo.jpg" class="col-sm-2 img-circle"  alt="" />
+</div>
 </div>
 
-<!--this where the DnD items will populate on start-->
-<div class="row" id="items"></div>
+<br>
+
+<div class="row"> 
+<div class="col-sm-3 label">Medo</div>
+<div class="col-sm-3 label" >Ira</div>
+<div class="col-sm-3 label">Tristeza</div>
+<div class="col-sm-3 label">Alegria</div>
+</div>
+<div class="row">
+<div class="col-sm-3"><div id="droppablemedo" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppableira" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppabletristeza" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppablealegria" class="conteudo col-sm-12"><p></p></div></div>
+</div>
+
+
 
 </div>
 
@@ -93,20 +119,63 @@
   $.material.init();
 </script>
 
-<!-- Dropdown.js -->
-<script src="../../../js/jquery.dropdown.js"></script>
+
+
+
+
+
+
+
+ <script src="jquery-1.7.2.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+
 <script>
-  $("#dropdown-menu select").dropdown();
-</script>
-
-
-<script>
-$(document).ready( function() {
-  var $draggable = $('.draggable').draggabilly();
-});
+$('#tristeza').draggable();
+$('#alegria').draggable();
+$('#ira').draggable();
+$('#medo').draggable();
 
 </script>
+  <script>
 
+  $( function() {
+    $( "#tristeza, #alegria, #ira, #medo" ).draggable({ revert: "invalid" });
+ 
+    $( "#droppablealegria" ).droppable({accept: "#alegria",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Certo!" );   
+      }
+    });
+    $( "#droppableira" ).droppable({accept: "#ira",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Certo!" );   
+      }    
+    });
+    $( "#droppabletristeza" ).droppable({accept: "#tristeza",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Certo!" );
+      }    
+    });
+    $( "#droppablemedo" ).droppable({accept: "#medo",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "Certo!" );
+      }
+    });        
+  } );
+  </script>
 
 </body>
 </html>

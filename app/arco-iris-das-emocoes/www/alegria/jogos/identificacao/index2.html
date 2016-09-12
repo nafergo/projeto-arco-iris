@@ -71,7 +71,18 @@
 
 
 		<div class="row">
-					<div class="col-sm-12 center-block"><h1>Quem está alegre?</h1></div>		
+					<div class="col-sm-12 center-block"><h1>Quem está alegre?</h1></div>	
+					
+					
+						<div class="col-sm-3 center-block">
+<!-- Button alegria trigger modal -->
+
+<button type="button" class="center-block btn btn-raised btn-lg btn-default" data-toggle="modal" data-target="#alegriamyModal">
+			          <img src="avatar_menina_alegria.png" class="center-block img-responsive" alt="">
+</button>
+					</div>				
+					
+						
 					<div class="col-sm-3 center-block">
 <!-- Button irado trigger modal -->
 
@@ -80,15 +91,14 @@
 </button>
 					</div>
 					
-
 					<div class="col-sm-3 center-block">
-<!-- Button alegria trigger modal -->
+<!-- Button medo trigger modal -->
 
-<button type="button" class="center-block btn btn-raised btn-lg btn-default" data-toggle="modal" data-target="#alegriamyModal">
-			          <img src="avatar_menina_alegria.png" class="center-block img-responsive" alt="">
+<button type="button" class="center-block btn btn-raised btn-lg btn-default" data-toggle="modal" data-target="#medomyModal">
+			          <img src="avatar_menina_medo.png" class="center-block img-responsive" alt="">
 </button>
 					</div>
-
+					
 
 					<div class="col-sm-3 center-block">
 <!-- Button tristeza trigger modal -->
@@ -99,13 +109,7 @@
 					</div>
 
 
-					<div class="col-sm-3 center-block">
-<!-- Button medo trigger modal -->
 
-<button type="button" class="center-block btn btn-raised btn-lg btn-default" data-toggle="modal" data-target="#medomyModal">
-			          <img src="avatar_menina_medo.png" class="center-block img-responsive" alt="">
-</button>
-					</div>
 					
 					
 					
@@ -124,11 +128,12 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="iradomyModalLabel">IRA</h4>
+        <h4 class="modal-title" id="iradomyModalLabel"></h4>
       </div>
       <div class="modal-body">
+			          <img src="avatar_menina_ira.png" class="center-block img-responsive" alt="">
         <h3>Esta menina está irada. Irada não é alegre.</h3>
-        <h2>Observa com atenção e descobre <strong>Quem está alegre?</strong></h2>        
+       
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
@@ -147,11 +152,11 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="alegriamyModalLabel">ALEGRE</h4>
+        <h4 class="modal-title" id="alegriamyModalLabel"></h4>
       </div>
       <div class="modal-body">
-        <h3>Esta menina está alegre.</h3>
-        <h2>Parabéns! Descobriste <strong>quem está alegre</strong>.</h2> 
+			  <img src="avatar_menina_alegria.png" class="center-block img-responsive" alt="">
+        <h3>Parabéns! Descobriste <strong>quem está alegre</strong>.</h3> 
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
@@ -171,11 +176,12 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="tristezamyModalLabel">TRISTE</h4>
+        <h4 class="modal-title" id="tristezamyModalLabel"></h4>
       </div>
       <div class="modal-body">
+			<img src="avatar_menina_tristeza.png" class="center-block img-responsive" alt="">
         <h3>Esta menina está triste. Triste não é alegre.</h3>
-        <h2>Observa com atenção e descobre <strong>Quem está alegre?</strong></h2> 
+        
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
@@ -192,11 +198,12 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-        <h4 class="modal-title" id="medomyModalLabel">MEDO</h4>
+        <h4 class="modal-title" id="medomyModalLabel"></h4>
       </div>
       <div class="modal-body">
+			<img src="avatar_menina_medo.png" class="center-block img-responsive" alt="">
         <h3>Esta menina está com medo. Ter medo não é alegre.</h3>
-        <h2>Observa com atenção e descobre <strong>Quem está alegre?</strong></h2> 
+
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
