@@ -32,6 +32,7 @@ body {
 .valign-table {
   display: table;
   table-layout: fixed;
+
 }
 .valign-cell {
   display: table-cell;
@@ -103,6 +104,8 @@ body {
 #memory--settings-modal {
   background-color: rgba(255, 255, 255, 0.86);
   z-index: 4;
+  padding-left: 35%;
+  padding-top: 10%;
 }
 #memory--settings-modal form {
   min-width:240px;

@@ -36,9 +36,9 @@
 	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
 
 <style>
-#alegria, #tristeza, #ira, #medo {height:auto;}
-#droppablealegria, #droppableira {height:200px; text-align: center;  }
-#droppabletristeza, #droppablemedo {height:200px; text-align: center;}
+#zero, #um, #dois, #tres {height:130px; width: auto;}
+#droppablezero, #droppabletres {height:200px; text-align: center;  }
+#droppabledois, #droppableum {height:200px; text-align: center;}
 .ui-state-highlight {font-size: 2em; background-color: rgba(0, 255, 0, 0.2);}
 .label {font-size: 1.5em; text-align: center;font-weight: bold; background-color: rgba(255, 0, 0, 0.0); color: gray;}
 img {z-index: 1000;}
@@ -79,29 +79,32 @@ img {z-index: 1000;}
   
 <div class="container-fluid">
 
+<div class="row ">    .    
+<div class="col-sm-12 center-block"> 
 
-<div class="row">    .    
-<div class="col-sm-12"> 
-<img id="alegria" src="images/menina_alegre.jpg" class="col-sm-2 img-circle" alt="" />
-<img id="tristeza" src="images/menina_triste.jpg" class="col-sm-2 img-circle" alt="" />
-<img id="ira" src="images/menina_irada.jpg" class="col-sm-2 img-circle" alt="" />
-<img id="medo" src="images/menina_medo.jpg" class="col-sm-2 img-circle"  alt="" />
+<h3>Coloca as caras por ordem: da menos alegre para a mais alegre</h3>
+
+<img id="tres" src="images/menina3.png" class="col-sm-2 img-circle"  alt="" />
+<img id="um" src="images/menina1.png" class="col-sm-2 img-circle" alt="" />
+<img id="dois" src="images/menina2.png" class="col-sm-2 img-circle" alt="" />
+<img id="zero" src="images/menina0.png" class="col-sm-2 img-circle" alt="" />
+
 </div>
 </div>
 
 <br>
 
 <div class="row"> 
-<div class="col-sm-3 label">Medo</div>
-<div class="col-sm-3 label" >Ira</div>
-<div class="col-sm-3 label">Tristeza</div>
-<div class="col-sm-3 label">Alegria</div>
+<div class="col-sm-3 label"></div>
+<div class="col-sm-3 label" ></div>
+<div class="col-sm-3 label"></div>
+<div class="col-sm-3 label"></div>
 </div>
 <div class="row">
-<div class="col-sm-3"><div id="droppablemedo" class="conteudo col-sm-12"><p></p></div></div>
-<div class="col-sm-3"><div id="droppableira" class="conteudo col-sm-12"><p></p></div></div>
-<div class="col-sm-3"><div id="droppabletristeza" class="conteudo col-sm-12"><p></p></div></div>
-<div class="col-sm-3"><div id="droppablealegria" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppablezero" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppableum" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppabledois" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppabletres" class="conteudo col-sm-12"><p></p></div></div>
 </div>
 
 
@@ -131,47 +134,47 @@ img {z-index: 1000;}
 <script src="jquery.ui.touch-punch.min.js"></script>
 
 <script>
-$('#tristeza').draggable();
-$('#alegria').draggable();
-$('#ira').draggable();
-$('#medo').draggable();
+$('#zero').draggable();
+$('#um').draggable();
+$('#dois').draggable();
+$('#tres').draggable();
 
 </script>
   <script>
 
   $( function() {
-    $( "#tristeza, #alegria, #ira, #medo" ).draggable({ revert: "invalid" });
+    $( "#zero, #um, #dois, #tres" ).draggable({ revert: "invalid" });
  
-    $( "#droppablealegria" ).droppable({accept: "#alegria",
+    $( "#droppablezero" ).droppable({ tolerance: "fit", accept: "#zero", 
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
           .find( "p" )
-            .html( "Certo!" );   
+            .html( "" );   
       }
     });
-    $( "#droppableira" ).droppable({accept: "#ira",
+    $( "#droppableum" ).droppable({ tolerance: "fit", accept: "#um",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
           .find( "p" )
-            .html( "Certo!" );   
+            .html( "" );   
       }    
     });
-    $( "#droppabletristeza" ).droppable({accept: "#tristeza",
+    $( "#droppabledois" ).droppable({ tolerance: "fit", accept: "#dois",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
           .find( "p" )
-            .html( "Certo!" );
+            .html( "" );
       }    
     });
-    $( "#droppablemedo" ).droppable({accept: "#medo",
+    $( "#droppabletres" ).droppable({ tolerance: "fit", accept: "#tres",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
           .find( "p" )
-            .html( "Certo!" );
+            .html( "" );
       }
     });        
   } );
