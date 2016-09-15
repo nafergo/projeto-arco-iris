@@ -5,7 +5,7 @@
       "projectTypeName": "com.intel.xdk.projecttype.jsapp",
       "src": "jsapp/template-blank-cordova-project-lite/sample.zip",
       "projectGuid": "4ef8d78e-66e8-4132-9dea-513127dcbb87",
-      "lastModifiedDate": 1459972168702,
+      "lastModifiedDate": 1473972689334,
       "creationDate": 1459969547827
     },
     "XDK-app-designer": "false",
@@ -277,7 +277,7 @@
           "android-signed": true
         },
         "isActive_": true,
-        "appName_": "Arco-Íris das Emoções",
+        "appName_": "Viagem pelas emoções",
         "appID_": "arco_iris_das_emocoes_xdk.intel.cordova.template.lite",
         "appAccess_": {
           "mode": "whitelist",
@@ -378,7 +378,7 @@
         "cordovaCLIVersion_": "5.1.1",
         "crosswalkVersion_": "15",
         "appVersion_": "0.0.1",
-        "appDescription_": "Aplicação da Aida - Arco-Íris das Emoções",
+        "appDescription_": "Uma viagem pelas emoções",
         "appAuthor_": "OpenLab ESEV",
         "appVersionCode_": "1"
       }
