@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Uma viagem pelas emoções</title>
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <link rel="shortcut icon" href="../../../images/favicon.png">
+
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Material Design -->
+  <link href="../../../css/bootstrap-material-design.min.css" rel="stylesheet">
+  <link href="../../../css/ripples.min.css" rel="stylesheet">
+
+  <!-- Dropdown.js css -->
+  <link href="../../../css/jquery.dropdown.css" rel="stylesheet">
+
+  <!-- arco-iris style -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+  <!-- jQuery -->
+  <script src="../../../js/jquery-1.10.2.min.js"></script>
+
+   <!-- FontAwesome -->
+	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
+
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+    <script src="js/draggabilly.pkgd.min.js"></script>
+
+<style type="text/css">
+body {background-attachment:fixed;background-position:static;background-image: url('images/menina_cara.png');background-repeat: no-repeat;background-position: center bottom;}
+
+.quatro-ajogosrecria {}
+
+.fundo {width: 700px; height: 700px; position: fixed; z-index:-1000; float:left; background-image: url(images/cara.png); background-repeat: no-repeat;}
+
+.draggable.is-pointer-down { background: #09F;}
+.draggable.is-dragging { opacity: 0.7; }
+.draggable:hover {background: #09F; opacity: 0.7;}
+
+</style>
+
+  </head>
+
+<body class="quatro-ajogosrecria" style="min-height: 600px;">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse">
+
+      <ul class="nav navbar-nav ">
+        <li><a href="../../../index.html"><img class="iconemenu" src="../../../images/android-desktop.png"></a></li>
+        <li><a href="../../../2.html" class=""><img class="iconemenu" src="../../../images/2html.png"></a></li>
+        <li><a href="../../../3b.html" class=""><img class="iconemenu" src="../../../images/3bhtml.png"></a></li>
+        <li><a href="../../5b.html" class=""><img class="iconemenu" src="../../../images/5bhtml.png"></a></li>
+        <li><a href="../../5bjogos.html" class=""><img class="iconemenu" src="../../../images/5ajogoshtml.png"></a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+             				<h2>Recria o rosto triste</h2>
+      </ul>
+
+    </div>
+  </div>
+
+
+
+
+<div class="row">
+<img src="images/menina_ira_olhos.png" class="draggable"  alt=""  />
+<img src="images/menina_neutro_olhos.png" class="draggable" alt="" style="float: right;"  />
+</div>
+
+
+<div class="row">
+<img src="images/menina_medo_olhos.png" class="draggable" alt=""  />
+<img src="images/menina_tristeza_olhos.png"class="draggable"  alt="" style="float: right;"  />
+</div>
+
+
+<div class="row">
+		<img src="images/alegria_boca.png" class="draggable" alt="" />
+<img src="images/medo_boca.png" class="draggable" alt="" />
+<img src="images/tristeza_boca.png" class="draggable" alt="" style="float: right;" />
+</div>
+
+
+
+
+<!--   <img src="images/alegria_olhos.png" class=" left_two draggable"  alt="" /> -->
+
+<!--  <img src="images/ira_boca.png" class="left draggable" alt="" /> -->
+
+
+
+
+
+<!-- <img src="images/neutro_boca.png" class="left draggable" alt="" /> -->
+
+
+<!--  <img src="images/normal_boca.png" class="left draggable" alt="" /> -->
+
+
+
+
+
+	<div class="fussndo">	</div>
+
+
+
+
+
+ <!-- Twitter Bootstrap 3.3.6 -->
+<script src="../../../js/bootstrap.min.js"></script>
+
+<!-- Material Design for Bootstrap -->
+<script src="../../../js/material.js"></script>
+<script src="../../../js/ripples.min.js"></script>
+
+<script>
+  $.material.init();
+</script>
+
+<!-- Dropdown.js -->
+<script src="../../../js/jquery.dropdown.js"></script>
+<script>
+  $("#dropdown-menu select").dropdown();
+</script>
+
+
+<script>
+$(document).ready( function() {
+  var $draggable = $('.draggable').draggabilly();
+});
+
+</script>
+
+
+</body>
+</html>

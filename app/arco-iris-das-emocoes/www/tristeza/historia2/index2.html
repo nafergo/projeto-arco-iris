@@ -1,0 +1,277 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Uma viagem pelas emoções</title>
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <link rel="shortcut icon" href="../../images/favicon.png">
+
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link href="../../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Material Design -->
+  <link href="../../css/bootstrap-material-design.min.css" rel="stylesheet">
+  <link href="../../css/ripples.min.css" rel="stylesheet">
+
+  <!-- Dropdown.js css -->
+  <link href="../../css/jquery.dropdown.css" rel="stylesheet">
+
+  <!-- arco-iris style -->
+    <link rel="stylesheet" href="../../css/style.css">
+
+  <!-- jQuery -->
+  <script src="../../js/jquery-1.10.2.min.js"></script>
+
+   <!-- FontAwesome -->
+	<link rel="stylesheet" href="../../font-awesome/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="css/styles.css?v=1.0">
+
+
+
+
+<style type="text/css">
+#um, #dois, #tres {height:150px; width: auto;}
+#droppablezero, #droppabletres {height:200px; text-align: center;  }
+#droppabledois, #droppableum {height:200px; text-align: center;}
+.ui-state-highlight {font-size: 2em; background-color: rgba(0, 255, 0, 0.2);}
+.label {font-size: 1.5em; text-align: center;font-weight: bold; background-color: rgba(255, 0, 0, 0.0); color: gray;}
+img {z-index: 1000;}
+.conteudo {height:100%;border: 1px solid lightgray; border-radius: 5px;}
+
+</style>
+
+  </head>
+
+<body class="quatro-ahistorias1">
+
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse">
+
+      <ul class="nav navbar-nav ">
+        <li><a href="../../index.html"><img class="iconemenu" src="../../images/android-desktop.png"></a></li>
+        <li><a href="../../2.html" class=""><img class="iconemenu" src="../../images/2html.png"></a></li>
+        <li><a href="../../3b.html" class=""><img class="iconemenu" src="../../images/3bhtml.png"></a></li>
+        <li><a href="../5b.html" class=""><img class="iconemenu" src="../../images/5bhtml.png"></a></li>
+        <li><a href="../5bhistorias.html" class=""><img class="iconemenu" src="../../images/5ahistoriashtml.png"></a></li>                       
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+             				<h2>História 2</h2>
+      </ul>
+
+    </div>
+  </div>
+
+
+<div class="container-fluid">
+
+
+<div class="row">    .
+<div class="col-sm-10">
+
+
+<p style="font-size: 2em">O João esqueceu-se do lanche para comer na escola. A Maria come a sandes dela ao lado do João e não lhe oferece um bocadinho.</p>
+
+</div>
+<div class="col-sm-2 center-block">
+
+<audio id="mySecondAudio"
+ <source src="historia.mp3"
+         type='audio/mp3'>
+ Your user agent does not support the HTML5 Audio element.
+</audio>
+<button class="center-block btn btn-default btn-fab" type="button" onclick="aud_play_pausetwo()"><i class="fa fa-play" aria-hidden="true"></i> <i class="fa fa-pause" aria-hidden="true"></i><div class="ripple-container"></div></button>
+<script>
+function aud_play_pausetwo() {
+  var mySecondAudio = document.getElementById("mySecondAudio");
+  if (mySecondAudio.paused) {
+    mySecondAudio.play();
+  } else {
+    mySecondAudio.pause();
+  }
+}
+</script>
+
+
+
+</div>
+</div>
+
+<div class="row">
+<div class="col-sm-4"><div id="droppableum" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-4"><div id="droppabledois" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-4"><div id="droppabletres" class="conteudo col-sm-12"><p></p></div></div>
+
+</div>
+<br><br>
+
+<div class="row center-block">
+<div class="col-sm-8 col-sm-offset-2">
+<img src="images/h2_2.jpg" id="dois"  class="center-block col-sm-4"  alt="" />
+<img src="images/h2_1.jpg" id="um"  class="center-blockcol-sm-4" alt="" />
+<img src="images/h2_3.jpg" id="tres"  class="center-block col-sm-4" alt="" />
+
+</div>
+
+</div>
+
+
+
+<div class="row">
+
+<div class="col-sm-12 ">
+
+
+<p class="center-block" style="font-size: 2em">Como é que o João se sente?</p>
+
+
+
+					<div class="col-sm-offset-3 col-sm-3">
+<!-- Button alegria trigger modal -->
+
+<button type="button" class="center-block btn btn-raised  btn-default" data-toggle="modal" data-target="#alegriamyModal">
+			          <img src="images/avatar_menino_alegria.png" class="center-block img-responsive" alt="">
+</button>
+					</div>
+
+
+					<div class="col-sm-3 center-block col-sm-offset-1">
+<!-- Button tristeza trigger modal -->
+
+<button type="button" class="center-block btn btn-raised btn-default" data-toggle="modal" data-target="#tristezamyModal">
+			          <img src="images/avatar_menino_tristeza.png" class="center-block img-responsive" alt="">
+</button>
+					</div>
+
+
+
+<!-- Modal alegria -->
+<div class="modal fade" id="alegriamyModal" tabindex="-1" role="dialog" aria-labelledby="alegriamyModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="alegriamyModalLabel">ALEGRE</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Este menino está alegre.</h3>
+        <h2>Parabéns! Descobriste <strong>quem está alegre</strong>.</h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<!-- Modal tristeza -->
+<div class="modal fade" id="tristezamyModal" tabindex="-1" role="dialog" aria-labelledby="tristezamyModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="tristezamyModalLabel">TRISTE</h4>
+      </div>
+      <div class="modal-body">
+        <h3>Este menino está triste. Triste não é alegre.</h3>
+        <h2>Observa com atenção e descobre <strong>Quem está alegre?</strong></h2>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Fechar</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+</div>
+
+</div>
+
+
+
+
+ <!-- Twitter Bootstrap 3.3.6 -->
+<script src="../../js/bootstrap.min.js"></script>
+
+<!-- Material Design for Bootstrap -->
+<script src="../../js/material.js"></script>
+<script src="../../js/ripples.min.js"></script>
+
+<script>
+  $.material.init();
+</script>
+ <script src="../historia1/jquery-1.7.2.min.js"></script>
+<script src="../historia1/jquery-ui.min.js"></script>
+<script src="../historia1/jquery.ui.touch-punch.min.js"></script>
+
+<script>
+$('#um').draggable();
+$('#dois').draggable();
+$('#tres').draggable();
+
+</script>
+  <script>
+
+  $( function() {
+    $( "#um, #dois, #tres" ).draggable({ revert: "invalid" });
+
+    $( "#droppableum" ).droppable({ tolerance: "fit", accept: "#um",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+    $( "#droppabledois" ).droppable({ tolerance: "fit", accept: "#dois",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+    $( "#droppabletres" ).droppable({ tolerance: "fit", accept: "#tres",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+  } );
+  </script>
+
+
+</body>
+</html>

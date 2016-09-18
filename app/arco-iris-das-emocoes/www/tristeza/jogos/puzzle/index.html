@@ -1,0 +1,203 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Uma viagem pelas emoções</title>
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <link rel="shortcut icon" href="../../../images/favicon.png">
+
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Material Design -->
+  <link href="../../../css/bootstrap-material-design.min.css" rel="stylesheet">
+  <link href="../../../css/ripples.min.css" rel="stylesheet">
+
+  <!-- Dropdown.js css -->
+  <link href="../../../css/jquery.dropdown.css" rel="stylesheet">
+
+  <!-- arco-iris style -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+  <!-- jQuery
+  <script src="../../../js/jquery-1.10.2.min.js"></script>
+
+   <!-- FontAwesome -->
+	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
+
+
+
+
+
+
+    <link rel="stylesheet" href="pure-min.css">
+    <link rel="stylesheet" href="grids-responsive-min.css">
+    <!--[if lt IE 9]><script src="//cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.min.js"></script><![endif]-->
+    <style>
+
+
+.img-menu-active{opacity: 0.2;}
+.restart-puzzle {font-size: 2em}
+
+        body { margin: 0; padding: 0; border: 0; min-width: 320px; color: #777; }
+        html, button, input, select, textarea, .pure-g [class *= "pure-u"] { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 1.02em; }
+        p, td { line-height: 1.5; }
+        ul { padding: 0 0 0 20px; }
+
+        th { background: #eee; white-space: nowrap; }
+        th, td { padding: 10px; text-align: left; vertical-align: top; font-size: .9em; font-weight: normal; border-right: 1px solid #fff; }
+        td:first-child { white-space: nowrap; color: #008000; width: 1%; font-style: italic; }
+
+        h1, h2, h3 { color: #4b4b4b; font-family: "Source Sans Pro", sans-serif; font-weight: 300; margin: 0 0 1.2em; }
+        h1 { font-size: 4.5em; color: #1f8dd6; margin: 0 0 .4em; }
+        h2 { font-size: 2em; color: #636363; }
+        h3 { font-size: 1.8em; color: #4b4b4b; margin: 1.8em 0 .8em }
+        h4 { font: bold 1em sans-serif; color: #636363; margin: 4em 0 1em; }
+        a { color: #4e99c7; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        p, pre { margin: 0 0 1.2em; }
+        ::selection { color: #fff; background: #328efd; }
+        ::-moz-selection { color: #fff; background: #328efd; }
+
+        @media (max-width:480px) {
+            h1 { font-size: 3em; }
+            h2 { font-size: 1.8em; }
+            h3 { font-size: 1.5em; }
+            td:first-child { white-space: normal; }
+        }
+
+        .inline-code { padding: 1px 5px; background: #eee; border-radius: 2px; }
+        pre { padding: 15px 10px; font-size: .9em; color: #555; background: #edf3f8; }
+        pre i { color: #aaa; } /* comments */
+        pre b { font-weight: normal; color: #cf4b25; } /* strings */
+        pre em { color: #0c59e9; } /* numeric */
+
+        /* Pure CSS */
+        .pure-button { margin: 5px 0; text-decoration: none !important; }
+        .button-lg { margin: 5px 0; padding: .65em 1.6em; font-size: 105%; }
+
+        /* required snapPuzzle styles */
+        .snappuzzle-wrap { position: relative; display: block; }
+        .snappuzzle-pile { position: relative; }
+        .snappuzzle-piece { cursor: move; }
+        .snappuzzle-slot { position: absolute; background: #fff; opacity: .8; }
+        .snappuzzle-slot-hover { background: #eee; }
+    </style>
+</head>
+
+<body class="quatro-ajogospuzzle">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse">
+
+      <ul class="nav navbar-nav ">
+        <li><a href="../../../index.html"><img class="iconemenu" src="../../../images/android-desktop.png"></a></li>
+        <li><a href="../../../2.html" class=""><img class="iconemenu" src="../../../images/2html.png"></a></li>
+        <li><a href="../../../3a.html" class=""><img class="iconemenu" src="../../../images/3ahtml.png"></a></li>
+        <li><a href="../../5a.html" class=""><img class="iconemenu" src="../../../images/5ahtml.png"></a></li> 
+        <li><a href="../../5ajogos.html" class=""><img class="iconemenu" src="../../../images/5ajogoshtml.png"></a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+             				<h2 >Puzzle</h2>
+
+
+      </ul>
+
+    </div>
+  </div>
+
+  <div class="container-">
+  <div class="row">
+
+  	<div class="col-sm-offset-4 col-sm-1 "><img src="1.jpg" class="center-block img-responsive img-menu-active" alt=""></div>
+  	<div class="col-sm-1"><a href="index_2jpg.html"><img src="2.jpg" class="center-block img-responsive" alt=""></a></div>
+  	<div class="col-sm-1"><a href="index_3jpg.html"><img src="3.jpg" class="center-block img-responsive" alt=""></a></div>
+  	<div class="col-sm-1"><a href="index_4jpg.html"><img src="4.jpg" class="center-block img-responsive" alt=""></a></div>
+  </div>
+  </div>
+
+    <div id="puzzle-containment" style="border-top: 1px solid #eee;border-bottom:1px solid #eee;background:#fafafa;margin:30px 0;padding:10px;text-align:center">
+        <div class="pure-g" style="max-width:1280px;margin:auto">
+            <div class="pure-u-1 pure-u-md-1-2"><div style="margin:10px">
+                <img id="source_image" class="pure-img" src="1.jpg">
+            </div></div>
+            <div class="pure-u-1 pure-u-md-1-2">
+                <div id="pile" style="margin:10px">
+                    <div id="puzzle_solved" style="display:none;text-align:center;position:relative;top:25%">
+                        <h2 style="margin:0 0 20px">Parabéns!</h2>
+                        <a class="pure-button button-lg restart-puzzle" data-grid="3">Recomeçar</a>
+                        <br><br>
+                        <a href="#" class="restart-puzzle" data-grid="3">3x3</a>
+                        &nbsp; <a href="#" class="restart-puzzle" data-grid="5">5x5</a>
+                        &nbsp; <a href="#" class="restart-puzzle" data-grid="7">7x7</a>
+                        &nbsp; <a href="#" class="restart-puzzle" data-grid="10">10x10</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+    <script src="jquery.min.js"></script>
+    <script src="jquery-ui.min.js"></script>
+    <script src="jquery.snap-puzzle.min.js"></script>
+    <script>
+        // jQuery UI Touch Punch 0.2.3 - must load after jQuery UI
+        // enables touch support for jQuery UI
+        !function(a){function f(a,b){if(!(a.originalEvent.touches.length>1)){a.preventDefault();var c=a.originalEvent.changedTouches[0],d=document.createEvent("MouseEvents");d.initMouseEvent(b,!0,!0,window,1,c.screenX,c.screenY,c.clientX,c.clientY,!1,!1,!1,!1,0,null),a.target.dispatchEvent(d)}}if(a.support.touch="ontouchend"in document,a.support.touch){var e,b=a.ui.mouse.prototype,c=b._mouseInit,d=b._mouseDestroy;b._touchStart=function(a){var b=this;!e&&b._mouseCapture(a.originalEvent.changedTouches[0])&&(e=!0,b._touchMoved=!1,f(a,"mouseover"),f(a,"mousemove"),f(a,"mousedown"))},b._touchMove=function(a){e&&(this._touchMoved=!0,f(a,"mousemove"))},b._touchEnd=function(a){e&&(f(a,"mouseup"),f(a,"mouseout"),this._touchMoved||f(a,"click"),e=!1)},b._mouseInit=function(){var b=this;b.element.bind({touchstart:a.proxy(b,"_touchStart"),touchmove:a.proxy(b,"_touchMove"),touchend:a.proxy(b,"_touchEnd")}),c.call(b)},b._mouseDestroy=function(){var b=this;b.element.unbind({touchstart:a.proxy(b,"_touchStart"),touchmove:a.proxy(b,"_touchMove"),touchend:a.proxy(b,"_touchEnd")}),d.call(b)}}}(jQuery);
+
+        function start_puzzle(x){
+            $('#puzzle_solved').hide();
+            $('#source_image').snapPuzzle({
+                rows: x, columns: x,
+                pile: '#pile',
+                containment: '#puzzle-containment',
+                onComplete: function(){
+                    $('#source_image').fadeOut(150).fadeIn();
+                    $('#puzzle_solved').show();
+                }
+            });
+        }
+
+        $(function(){
+            $('#pile').height($('#source_image').height());
+            start_puzzle(3);
+
+            $('.restart-puzzle').click(function(){
+                $('#source_image').snapPuzzle('destroy');
+                start_puzzle($(this).data('grid'));
+            });
+
+            $(window).resize(function(){
+                $('#pile').height($('#source_image').height());
+                $('#source_image').snapPuzzle('refresh');
+            });
+        });
+
+
+
+    </script>
+</body>
+</html>

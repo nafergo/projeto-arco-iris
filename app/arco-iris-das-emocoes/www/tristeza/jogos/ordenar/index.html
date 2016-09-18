@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+  <head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Uma viagem pelas emoções</title>
+    <meta name="description" content="A front-end template that helps you build fast, modern mobile web apps.">
+    <link rel="shortcut icon" href="../../../images/favicon.png">
+
+  <!-- Mobile support -->
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Material Design fonts -->
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Roboto:300,400,500,700" type="text/css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <!-- Bootstrap 3.3.6 -->
+  <link href="../../../css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Bootstrap Material Design -->
+  <link href="../../../css/bootstrap-material-design.min.css" rel="stylesheet">
+  <link href="../../../css/ripples.min.css" rel="stylesheet">
+
+  <!-- Dropdown.js css -->
+  <link href="../../../css/jquery.dropdown.css" rel="stylesheet">
+
+  <!-- arco-iris style -->
+    <link rel="stylesheet" href="../../../css/style.css">
+
+  <!-- jQuery -->
+  <script src="../../../js/jquery-1.10.2.min.js"></script>
+
+   <!-- FontAwesome -->
+	<link rel="stylesheet" href="../../../font-awesome/css/font-awesome.min.css">
+
+<style>
+#zero, #um, #dois, #tres {height:130px; width: auto;}
+#droppablezero, #droppabletres {height:200px; text-align: center;  }
+#droppabledois, #droppableum {height:200px; text-align: center;}
+.ui-state-highlight {font-size: 2em; background-color: rgba(0, 255, 0, 0.2);}
+.label {font-size: 1.5em; text-align: center;font-weight: bold; background-color: rgba(255, 0, 0, 0.0); color: gray;}
+img {z-index: 1000;}
+.conteudo {height:100%;border: 1px solid lightgray; border-radius: 5px;}
+</style>
+
+
+
+  </head>
+
+<body class="quatro-ajogosordenar">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-warning-collapse">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+
+    </div>
+    <div class="navbar-collapse collapse navbar-warning-collapse">
+
+      <ul class="nav navbar-nav ">
+        <li><a href="../../../index.html"><img class="iconemenu" src="../../../images/android-desktop.png"></a></li>
+        <li><a href="../../../2.html" class=""><img class="iconemenu" src="../../../images/2html.png"></a></li>
+        <li><a href="../../../3a.html" class=""><img class="iconemenu" src="../../../images/3ahtml.png"></a></li>
+        <li><a href="../../5a.html" class=""><img class="iconemenu" src="../../../images/5ahtml.png"></a></li>
+        <li><a href="../../5ajogos.html" class=""><img class="iconemenu" src="../../../images/5ajogoshtml.png"></a></li>
+      </ul>
+
+      <ul class="nav navbar-nav navbar-right">
+             				<h2>Ordenar</h2>
+      </ul>
+
+    </div>
+  </div>
+
+
+<div class="container-fluid">
+
+
+<div class="row">    .
+<div class="col-sm-12 center-block">
+<h3>Coloca as caras por ordem: da menos alegre para a mais alegre</h3>
+
+<img id="tres" src="images/menino3.png" class="col-sm-2 img-circle"  alt="" />
+<img id="um" src="images/menino1.png" class="col-sm-2 img-circle" alt="" />
+<img id="dois" src="images/menino2.png" class="col-sm-2 img-circle" alt="" />
+<img id="zero" src="images/menino0.png" class="col-sm-2 img-circle" alt="" />
+</div>
+</div>
+
+<br>
+
+<div class="row">
+<div class="col-sm-3 label"></div>
+<div class="col-sm-3 label" ></div>
+<div class="col-sm-3 label"></div>
+<div class="col-sm-3 label"></div>
+</div>
+<div class="row">
+<div class="col-sm-3"><div id="droppablezero" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppableum" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppabledois" class="conteudo col-sm-12"><p></p></div></div>
+<div class="col-sm-3"><div id="droppabletres" class="conteudo col-sm-12"><p></p></div></div>
+</div>
+
+
+
+</div>
+
+ <!-- Twitter Bootstrap 3.3.6 -->
+<script src="../../../js/bootstrap.min.js"></script>
+
+<!-- Material Design for Bootstrap -->
+<script src="../../../js/material.js"></script>
+<script src="../../../js/ripples.min.js"></script>
+
+<script>
+  $.material.init();
+</script>
+
+
+
+
+
+
+
+
+ <script src="jquery-1.7.2.min.js"></script>
+<script src="jquery-ui.min.js"></script>
+<script src="jquery.ui.touch-punch.min.js"></script>
+
+<script>
+$('#zero').draggable();
+$('#um').draggable();
+$('#dois').draggable();
+$('#tres').draggable();
+
+</script>
+  <script>
+
+  $( function() {
+    $( "#zero, #um, #dois, #tres" ).draggable({ revert: "invalid" });
+
+    $( "#droppablezero" ).droppable({ tolerance: "fit", accept: "#zero",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+    $( "#droppableum" ).droppable({ tolerance: "fit", accept: "#um",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+    $( "#droppabledois" ).droppable({ tolerance: "fit", accept: "#dois",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+    $( "#droppabletres" ).droppable({ tolerance: "fit", accept: "#tres",
+          drop: function( event, ui ) {
+        $( this )
+          .addClass( "ui-state-highlight" )
+          .find( "p" )
+            .html( "" );
+      }
+    });
+  } );
+  </script>
+
+</body>
+</html>

@@ -1,6 +1,6 @@
 body {background-color: #fff;}
 
-    
+
 .jogo-card-square.mdl-card {
   width: 320px;
   height: 320px;
@@ -37,6 +37,7 @@ min-height: 120px;
 .dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center center;}
 .tres-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: left bottom; background-size: 250px, 130px, auto;}
 .tres-c-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_cinza.png"); background-repeat: no-repeat; background-position: right bottom; background-size: 150px, 130px, auto;}
+/*alegria*/
 .quatro-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;}
 .quatro-a-um {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;background-size: 180px, 130px, auto;}
 .quatro-a-dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 250px, 130px, auto;}
@@ -44,6 +45,15 @@ min-height: 120px;
 
 .quatro-ahistorias {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_amarelo.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 200px, 130px, auto;}
 .quatro-ajogos {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_amarelo.png"); background-repeat: no-repeat; background-position: right bottom;background-size: 200px, 130px, auto;}
+
+/*tristeza*/
+.cinco-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_azul.png"); background-repeat: no-repeat; background-position: right bottom;}
+.cinco-a-um {background-attachment:fixed;background-position:static; background-image: url("../images/planeta1_azul.png"); background-repeat: no-repeat; background-position: right bottom;background-size: 180px, 130px, auto;}
+.cinco-a-dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_azul.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 250px, 130px, auto;}
+.cinco-a-tres {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_azul.png"); background-repeat: no-repeat; background-position: right bottom;}
+
+.cinco-ahistorias {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_azul.png"); background-repeat: no-repeat; background-position: left bottom;background-size: 200px, 130px, auto;}
+.cinco-ajogos {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_azul.png"); background-repeat: no-repeat; background-position: right bottom;background-size: 200px, 130px, auto;}
 
 
 .tres-b {background-attachment:fixed;background-position:static; background-image: url("../images/planeta4_cinza.png"); background-repeat: no-repeat; background-position: right bottom;}
