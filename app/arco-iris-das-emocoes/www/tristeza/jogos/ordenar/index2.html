@@ -66,7 +66,7 @@ img {z-index: 1000;}
         <li><a href="../../../2.html" class=""><img class="iconemenu" src="../../../images/2html.png"></a></li>
         <li><a href="../../../3b.html" class=""><img class="iconemenu" src="../../../images/3bhtml.png"></a></li>
         <li><a href="../../5b.html" class=""><img class="iconemenu" src="../../../images/5bhtml.png"></a></li>
-        <li><a href="../../5bjogos.html" class=""><img class="iconemenu" src="../../../images/5ajogoshtml.png"></a></li>                       
+        <li><a href="../../5bjogos.html" class=""><img class="iconemenu" src="../../../images/5ajogoshtml.png"></a></li>
       </ul>
 
       <ul class="nav navbar-nav navbar-right">
@@ -145,7 +145,7 @@ $('#tres').draggable();
   $( function() {
     $( "#zero, #um, #dois, #tres" ).draggable({ revert: "invalid" });
 
-    $( "#droppablezero" ).droppable({ tolerance: "fit", accept: "#zero",
+    $( "#droppablezero" ).droppable({ tolerance: "intersect", accept: "#zero",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
@@ -153,7 +153,7 @@ $('#tres').draggable();
             .html( "" );
       }
     });
-    $( "#droppableum" ).droppable({ tolerance: "fit", accept: "#um",
+    $( "#droppableum" ).droppable({ tolerance: "intersect", accept: "#um",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
@@ -161,7 +161,7 @@ $('#tres').draggable();
             .html( "" );
       }
     });
-    $( "#droppabledois" ).droppable({ tolerance: "fit", accept: "#dois",
+    $( "#droppabledois" ).droppable({ tolerance: "intersect", accept: "#dois",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
@@ -169,7 +169,7 @@ $('#tres').draggable();
             .html( "" );
       }
     });
-    $( "#droppabletres" ).droppable({ tolerance: "fit", accept: "#tres",
+    $( "#droppabletres" ).droppable({ tolerance: "intersect", accept: "#tres",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
