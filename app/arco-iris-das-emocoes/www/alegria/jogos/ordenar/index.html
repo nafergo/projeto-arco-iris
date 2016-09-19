@@ -144,7 +144,7 @@ $('#tres').draggable();
   $( function() {
     $( "#zero, #um, #dois, #tres" ).draggable({ revert: "invalid" });
  
-    $( "#droppablezero" ).droppable({ tolerance: "fit", accept: "#zero",
+    $( "#droppablezero" ).droppable({ tolerance: "intersect", accept: "#zero",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
@@ -152,7 +152,7 @@ $('#tres').draggable();
             .html( "" );   
       }
     });
-    $( "#droppableum" ).droppable({ tolerance: "fit", accept: "#um",
+    $( "#droppableum" ).droppable({ tolerance: "intersect", accept: "#um",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
@@ -160,7 +160,7 @@ $('#tres').draggable();
             .html( "" );   
       }    
     });
-    $( "#droppabledois" ).droppable({ tolerance: "fit", accept: "#dois",
+    $( "#droppabledois" ).droppable({ tolerance: "intersect", accept: "#dois",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )
@@ -168,7 +168,7 @@ $('#tres').draggable();
             .html( "" );
       }    
     });
-    $( "#droppabletres" ).droppable({ tolerance: "fit", accept: "#tres",
+    $( "#droppabletres" ).droppable({ tolerance: "intersect", accept: "#tres",
           drop: function( event, ui ) {
         $( this )
           .addClass( "ui-state-highlight" )

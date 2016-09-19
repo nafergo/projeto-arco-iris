@@ -32,7 +32,7 @@ min-height: 120px;
 
 
 .index {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: right bottom; background-size: 350px, 130px, auto;}
-.uma {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: right bottom; background-size: 350px, 130px, auto;}
+.uma {background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: right center; background-size: 350px, 130px, auto;}
 .um-b {background-image: url("../images/guiao.png"); background-repeat: no-repeat; background-position: right bottom; }
 .dois {background-attachment:fixed;background-position:static; background-image: url("../images/planeta2_cinza.png"); background-repeat: no-repeat; background-position: center center;}
 .tres-a {background-attachment:fixed;background-position:static; background-image: url("../images/planeta3_cinza.png"); background-repeat: no-repeat; background-position: left bottom; background-size: 250px, 130px, auto;}
